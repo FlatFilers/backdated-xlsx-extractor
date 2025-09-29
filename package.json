@@ -1,0 +1,22 @@
+{
+  "name": "xlsx-agent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "flatfile develop src/index.js",
+    "deploy": "flatfile deploy src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.8.0",
+  "dependencies": {
+    "@flatfile/plugin-xlsx-extractor": "3.4.0",
+    "@flatfile/api": "^1.23.0",
+    "@flatfile/listener": "^1.1.2",
+    "@flatfile/plugin-record-hook": "^1.4.4",
+    "axios": "^1.6.7",
+    "flatfile": "^3.6.2"
+  }
+}

@@ -16,7 +16,7 @@
     "@flatfile/api": "^1.23.0",
     "@flatfile/listener": "^1.1.2",
     "@flatfile/plugin-record-hook": "^1.4.4",
-    "axios": "^1.6.7",
+    "axios": "^1.15.2",
     "flatfile": "^3.6.2"
   }
 }
